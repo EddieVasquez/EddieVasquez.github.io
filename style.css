@@ -75,11 +75,13 @@ table {
     padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
+    list-style-type: none;
 }
 
 table a {
     border: 2px solid black;
     background-color: sienna;
+    list-style-type: none;
 }
 
 mail {
