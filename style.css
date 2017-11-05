@@ -57,6 +57,9 @@ footer {
     padding: 0;
     overflow: hidden;
     background-color: grey;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 form {
@@ -80,13 +83,13 @@ table {
 
 table a {
     border: 2px solid black;
-    background-color: gray;
+    background-color: sienna;
 }
 
 mail {
     border: 2px solid black;
     margin-top: 15%;
-    background-color: gray;
+    background-color: sienna;
 
 }
 
