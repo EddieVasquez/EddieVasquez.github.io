@@ -7,34 +7,36 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: grey;
-    
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: fit-content;
 	
 }
 
 a {
     float: left;
     display: block;
-    color: white;
+    color: red;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 1px solid white;
+    
 }
 
 a:hover {
-    background-color: white;
-    color: black;
+    background-color: darkgray;
+    color: #ffe81f;
 }
 
 
 h1 {
     text-align: center;
-    color: red;
+    color: #ffe81f;
     
 }
 
 h4{
-    color:red;
+    color:#ffe81f;
     text-align:left;
 }
 
@@ -48,7 +50,7 @@ p {
     width: 500px;
     margin: 0 auto;
     padding-bottom: 10px;
-	  color: red;
+	  color: #ffe81f;
 }
 
 
@@ -60,7 +62,12 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
+    border-radius: 20px;
+    width: fit-content;
+
 }
+
+
 
 form {
     border: 4px solid black;
@@ -93,9 +100,6 @@ mail {
 
 }
 
-.footerClass {
-    margin-top: 35%;
-}
 
 ul {
     margin: 0;
@@ -104,10 +108,36 @@ ul {
 }
 
 
-fieldset {
+.word {
     background-color: silver;
     border: solid #ff0000;
     -webkit-border-radius: 20px;
     border-radius: 20px;
     text-align:left;
+}
+
+
+.field {
+    background: transparent;
+    border: none;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 480px) {
+    footer {
+        position: static;
+        bottom: 0;
+        width: fit-content;
+    }
+
+    nav {
+        overflow: hidden;
+        background-color: grey;
+        border-radius: 20px;
+        text-align: center;
+        margin: auto;
+        width: max-content;
+        
+    }
 }
