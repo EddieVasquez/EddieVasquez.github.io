@@ -133,12 +133,11 @@ ul {
 
     nav {
         overflow: hidden;
-        background-color: grey;
+        background-color: white;
         border-radius: 20px;
         text-align: center;
         margin: auto;
         width: max-content;
-background-color: white;
         
     }
 }
