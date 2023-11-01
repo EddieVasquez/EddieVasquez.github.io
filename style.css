@@ -138,6 +138,8 @@ ul {
         text-align: center;
         margin: auto;
         width: max-content;
+left: 50%;
+right: 50%;
         
     }
 }
